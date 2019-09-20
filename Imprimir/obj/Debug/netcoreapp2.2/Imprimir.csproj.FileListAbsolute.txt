@@ -1,0 +1,11 @@
+C:\Users\52450072829\Documents\exercícios\Imprimir\bin\Debug\netcoreapp2.2\Imprimir.deps.json
+C:\Users\52450072829\Documents\exercícios\Imprimir\bin\Debug\netcoreapp2.2\Imprimir.runtimeconfig.json
+C:\Users\52450072829\Documents\exercícios\Imprimir\bin\Debug\netcoreapp2.2\Imprimir.runtimeconfig.dev.json
+C:\Users\52450072829\Documents\exercícios\Imprimir\bin\Debug\netcoreapp2.2\Imprimir.dll
+C:\Users\52450072829\Documents\exercícios\Imprimir\bin\Debug\netcoreapp2.2\Imprimir.pdb
+C:\Users\52450072829\Documents\exercícios\Imprimir\obj\Debug\netcoreapp2.2\Imprimir.csprojAssemblyReference.cache
+C:\Users\52450072829\Documents\exercícios\Imprimir\obj\Debug\netcoreapp2.2\Imprimir.csproj.CoreCompileInputs.cache
+C:\Users\52450072829\Documents\exercícios\Imprimir\obj\Debug\netcoreapp2.2\Imprimir.AssemblyInfoInputs.cache
+C:\Users\52450072829\Documents\exercícios\Imprimir\obj\Debug\netcoreapp2.2\Imprimir.AssemblyInfo.cs
+C:\Users\52450072829\Documents\exercícios\Imprimir\obj\Debug\netcoreapp2.2\Imprimir.dll
+C:\Users\52450072829\Documents\exercícios\Imprimir\obj\Debug\netcoreapp2.2\Imprimir.pdb
