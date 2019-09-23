@@ -1,0 +1,4 @@
+C:\Users\52450072829\Documents\exercícios\Classificação_idade\obj\Debug\netcoreapp2.2\Classificação_idade.csprojAssemblyReference.cache
+C:\Users\52450072829\Documents\exercícios\Classificação_idade\obj\Debug\netcoreapp2.2\Classificação_idade.csproj.CoreCompileInputs.cache
+C:\Users\52450072829\Documents\exercícios\Classificação_idade\obj\Debug\netcoreapp2.2\Classificação_idade.AssemblyInfoInputs.cache
+C:\Users\52450072829\Documents\exercícios\Classificação_idade\obj\Debug\netcoreapp2.2\Classificação_idade.AssemblyInfo.cs

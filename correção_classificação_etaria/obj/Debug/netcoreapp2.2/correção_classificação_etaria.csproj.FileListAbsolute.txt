@@ -1,0 +1,11 @@
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\bin\Debug\netcoreapp2.2\correção_classificação_etaria.deps.json
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\bin\Debug\netcoreapp2.2\correção_classificação_etaria.runtimeconfig.json
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\bin\Debug\netcoreapp2.2\correção_classificação_etaria.runtimeconfig.dev.json
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\bin\Debug\netcoreapp2.2\correção_classificação_etaria.dll
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\bin\Debug\netcoreapp2.2\correção_classificação_etaria.pdb
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\obj\Debug\netcoreapp2.2\correção_classificação_etaria.csprojAssemblyReference.cache
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\obj\Debug\netcoreapp2.2\correção_classificação_etaria.csproj.CoreCompileInputs.cache
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\obj\Debug\netcoreapp2.2\correção_classificação_etaria.AssemblyInfoInputs.cache
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\obj\Debug\netcoreapp2.2\correção_classificação_etaria.AssemblyInfo.cs
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\obj\Debug\netcoreapp2.2\correção_classificação_etaria.dll
+C:\Users\52450072829\Documents\exercícios\correção_classificação_etaria\obj\Debug\netcoreapp2.2\correção_classificação_etaria.pdb
