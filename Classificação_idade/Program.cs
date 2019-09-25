@@ -32,7 +32,7 @@ namespace Classificação_idade
                Console.WriteLine(x =>65);
                Console.WriteLine("Você é um idoso");
                break;
-
+           
            }
         }
     }
