@@ -6,37 +6,31 @@ namespace Vetores
     {
         static void Main(string[] args)
         { 
-        int n = 0;
-     
-        int [] vetor = new int[6];
-       int x = vetor[0];
-       int y = vetor [1];
-       int z = vetor  [2];
-        Console.WriteLine("digite os seis primeiros números");
-        n = int.Parse(Console.ReadLine());
-        n = int.Parse(Console.ReadLine());
-        n = int.Parse(Console.ReadLine());
-        n = int.Parse(Console.ReadLine());
-        n = int.Parse(Console.ReadLine());
-        n = int.Parse(Console.ReadLine());
+            int[] vetor = new int[6];
+            int pares = 0;
+            int impares = 0;
+           for(int cont = 0; cont <= 5;cont++){
+            Console.Write("Digite um número:");
+            vetor [cont] = int.Parse(Console.ReadLine());
+        }
+        foreach (int num in vetor)
+          { if(num%2 == 0){
+              pares +=1;
+          } else {
+              impares++;
+          }
 
-        do {
-            Console.WriteLine("Digite um numero inteiro");
-            numero = int.Parse(Console.ReadLine());
-
-            if (numero == 0){
-                Console.WriteLine(" Fim do programa");
-            } else
-            
-             if (numero % 2 == 0) {
-            Console.WriteLine("Seu número é par");
-              }
-            else {
-            Console.WriteLine(" Seu número é ímpar");
-            }
-            
-            } while (numero !=0);
-        
+          }
+        Console.WriteLine($"Você tem {pares} números pares e {impares} numéros impares");
          }
      }
+     //int num;
+//for(int cont = 0; cont <=5;cont++){
+    //num = vetor[cont];
+    //if(num%2 ==0){
+        //pares++;
+        //}else {
+            //impares++;
+            //}
+            //}
 }
