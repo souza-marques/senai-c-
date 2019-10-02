@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\52450072829\\Documents\\exercícios\\MateODragao\\MateODragao.csproj": {}
+    "C:\\Users\\52450072829\\Documents\\exercícios\\ByteBank\\ByteBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\52450072829\\Documents\\exercícios\\MateODragao\\MateODragao.csproj": {
+    "C:\\Users\\52450072829\\Documents\\exercícios\\ByteBank\\ByteBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\52450072829\\Documents\\exercícios\\MateODragao\\MateODragao.csproj",
-        "projectName": "MateODragao",
-        "projectPath": "C:\\Users\\52450072829\\Documents\\exercícios\\MateODragao\\MateODragao.csproj",
+        "projectUniqueName": "C:\\Users\\52450072829\\Documents\\exercícios\\ByteBank\\ByteBank.csproj",
+        "projectName": "ByteBank",
+        "projectPath": "C:\\Users\\52450072829\\Documents\\exercícios\\ByteBank\\ByteBank.csproj",
         "packagesPath": "C:\\Users\\52450072829\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\52450072829\\Documents\\exercícios\\MateODragao\\obj\\",
+        "outputPath": "C:\\Users\\52450072829\\Documents\\exercícios\\ByteBank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -39,12 +39,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.0, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
