@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\52450072829\\Documents\\exercícios2\\Classificação_idade\\Classificação_idade.csproj",
-      "projectName": "Classificação_idade",
-      "projectPath": "C:\\Users\\52450072829\\Documents\\exercícios2\\Classificação_idade\\Classificação_idade.csproj",
+      "projectUniqueName": "C:\\Users\\52450072829\\Documents\\exercícios2\\TodoList\\TodoList.csproj",
+      "projectName": "TodoList",
+      "projectPath": "C:\\Users\\52450072829\\Documents\\exercícios2\\TodoList\\TodoList.csproj",
       "packagesPath": "C:\\Users\\52450072829\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\52450072829\\Documents\\exercícios2\\Classificação_idade\\obj\\",
+      "outputPath": "C:\\Users\\52450072829\\Documents\\exercícios2\\TodoList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

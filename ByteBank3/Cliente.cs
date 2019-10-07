@@ -5,7 +5,7 @@ namespace ByteBank3 {
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public cliente (string Nome, string Cpf, string Email) {
+        public Cliente (string Nome, string Cpf, string Email) {
             this.Nome = Nome;
             this.Cpf = Cpf;
             this.Email = Email;

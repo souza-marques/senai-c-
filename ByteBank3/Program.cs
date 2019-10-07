@@ -34,7 +34,7 @@ namespace ByteBank3 {
             double saldo;
             do {
                 System.Console.Write ("Digite o Saldo: ");
-                double saldo = double.Parse (Console.ReadLine ());
+                 saldo = double.Parse (Console.ReadLine ());
                 if (saldo >= 0) {
                     saldoValido = true;
                 } else {
@@ -47,16 +47,16 @@ namespace ByteBank3 {
             System.Console.WriteLine ("ByteBank- Deposito");
             Cliente usuario = contaCorrente.Titular;
             Console.WriteLine ($"Bem vindo - {usuario.Nome}");
-            System.Console.WriteLine($"Agencia: {contaCorrente.Agencia}   Conta:{contaCorrente.Conta}");
+            System.Console.WriteLine($"Agencia: {contaCorrente.Agencia}   Conta:{contaCorrente.Numero}");
             System.Console.WriteLine($"Saldo:{contaCorrente.Saldo}");
             System.Console.Write ("Digite o valor do Deposito");
             double valor = double.Parse (Console.ReadLine ());
-            double saldo = contaCorrente.Deposito(valor);
+            saldo = contaCorrente.Deposito(valor);
             contaCorrente.Deposito (valor);
             System.Console.WriteLine ();
             System.Console.WriteLine ("ByteBank- Saque");
             System.Console.WriteLine ("Qual o valor do Saque ?");
-            valor = Console.ReadLine ();
+            valor = double.Parse(Console.ReadLine ());
             if (contaCorrente.Saque (valor)) {
                 System.Console.WriteLine ("Saque realizado com sucesso. Retire as notas");
             } else {
@@ -68,7 +68,7 @@ namespace ByteBank3 {
             System.Console.Write ("Digite o valor da tranferencia:");
             valor = double.Parse (Console.ReadLine ());
             Cliente cliente2 = new Cliente ("Alexandre", "123.321.123-12","a@a.com");
-            ContaCorrente contaCorrente2 = new Cliente ("123","132",cliente2);
+            ContaCorrente contaCorrente2 = new ContaCorrente (123,132,cliente2);
             if (contaCorrente.Transferencia(contaCorrente,valor)){
                 System.Console.WriteLine("Transferencia efetuada com sucesso.");
             }else{

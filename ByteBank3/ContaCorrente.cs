@@ -17,7 +17,7 @@ namespace ByteBank3 {
         }
         public bool Saque (double saque) { // método Saque retorna um booleano e recebe um double
             if (saque <= this.Saldo) { // se o valor do saque for menor que o saldo, beleza
-                this.Saldo -= valor;
+                this.Saldo -= saque;
                 return true;
             } else {
                 return false; // se a condição não for verdadeira,não será possível realizar o saque

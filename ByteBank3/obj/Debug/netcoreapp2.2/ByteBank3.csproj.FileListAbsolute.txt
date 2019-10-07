@@ -2,3 +2,10 @@ C:\Users\52450072829\Documents\exercícios2\ByteBank3\obj\Debug\netcoreapp2.2\By
 C:\Users\52450072829\Documents\exercícios2\ByteBank3\obj\Debug\netcoreapp2.2\ByteBank3.csproj.CoreCompileInputs.cache
 C:\Users\52450072829\Documents\exercícios2\ByteBank3\obj\Debug\netcoreapp2.2\ByteBank3.AssemblyInfoInputs.cache
 C:\Users\52450072829\Documents\exercícios2\ByteBank3\obj\Debug\netcoreapp2.2\ByteBank3.AssemblyInfo.cs
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\bin\Debug\netcoreapp2.2\ByteBank3.deps.json
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\bin\Debug\netcoreapp2.2\ByteBank3.runtimeconfig.json
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\bin\Debug\netcoreapp2.2\ByteBank3.runtimeconfig.dev.json
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\bin\Debug\netcoreapp2.2\ByteBank3.dll
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\bin\Debug\netcoreapp2.2\ByteBank3.pdb
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\obj\Debug\netcoreapp2.2\ByteBank3.dll
+C:\Users\52450072829\Documents\exercícios2\ByteBank3\obj\Debug\netcoreapp2.2\ByteBank3.pdb
