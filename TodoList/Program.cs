@@ -102,7 +102,7 @@ namespace TodoList
             TodoItem item = new TodoItem(titulo,nota);
             todoList.Add(item);
         }
-
+        static void Salvar(Alteracao)
         static void RemoveItem(List<TodoItem> todoList){
             int index = 0;
 
