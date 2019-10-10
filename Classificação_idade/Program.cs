@@ -1,35 +1,28 @@
 ﻿using System;
-
-namespace Classificação_idade {
-    class Program {
-        static void Main (string[] args) {
-            Console.WriteLine ("Digite o ano em que nasceu");
-            x = int.Parse (Console.ReadLine ());
-
-        
-            switch (opcao) {
-                case 1:
-                    Console.WriteLine (x <= 2);
-                    Console.WriteLine ("Você é recém-nascido");
-                    break;
-                case 2:
-                    Console.WriteLine (x = 3, x <= 11, x++);
-                    Console.WriteLine ("Você é  uma criança");
-                    break;
-                case 3:
-                    Console.WriteLine (x = 12, x <= 19, x++);
-                    Console.WriteLine ("Você é um adolescente");
-                    break;
-                case 4:
-                    Console.WriteLine (x = 20, x <= 65, x++);
-                    Console.WriteLine ("Você é Adulto");
-                    break;
-                case 5:
-                    Console.WriteLine (x => 65);
-                    Console.WriteLine ("Você é um idoso");
-                    break;
-
-            }
-        }
-    }
+namespace faixa_etaria
+{
+   class Program
+   {
+       static void Main(string[] args)
+       {
+           int anoAtual = 2019;
+           int anoNasc = 0;
+           int idade;
+           Console.Write("Qual o seu ano de nascimento? ");
+           anoNasc = int.Parse(Console.ReadLine());
+           idade = anoAtual - anoNasc;
+           Console.WriteLine("Sua idade atual é de " + idade + " anos");
+           if(idade <= 2) {
+               Console.WriteLine("Você é um Recém Nascido!");
+           } else if ((idade >= 3) && (idade <= 11)){
+               Console.WriteLine("Você é uma Criança!");
+           } else if ((idade >= 12) && (idade <= 19)){
+               Console.WriteLine("Você é um Adolescente!");
+           } else if ((idade >= 20) && (idade <= 65)){
+               Console.WriteLine("Você é um Adulto!");
+           } else if (idade > 65){
+               Console.WriteLine("Você é um Idoso!");
+           }
+       }
+   }
 }

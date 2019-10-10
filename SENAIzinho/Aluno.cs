@@ -8,7 +8,7 @@ namespace SENAIzinho
         public string Curso;
         public int NumeroSala;
 
-        public Aluno (string Nome, DateTime DataNascimento,string Curso, int Numerosala)
+        public CadastroAluno (string Nome, DateTime DataNascimento,string Curso, int Numerosala)
         {
             this.Nome = Nome;
             this.DataNascimento = DataNascimento;
