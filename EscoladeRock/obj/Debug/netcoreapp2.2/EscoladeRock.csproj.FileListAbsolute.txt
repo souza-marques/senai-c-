@@ -1,0 +1,4 @@
+C:\Users\52450072829\Documents\exercícios2\EscoladeRock\obj\Debug\netcoreapp2.2\EscoladeRock.csprojAssemblyReference.cache
+C:\Users\52450072829\Documents\exercícios2\EscoladeRock\obj\Debug\netcoreapp2.2\EscoladeRock.csproj.CoreCompileInputs.cache
+C:\Users\52450072829\Documents\exercícios2\EscoladeRock\obj\Debug\netcoreapp2.2\EscoladeRock.AssemblyInfoInputs.cache
+C:\Users\52450072829\Documents\exercícios2\EscoladeRock\obj\Debug\netcoreapp2.2\EscoladeRock.AssemblyInfo.cs
