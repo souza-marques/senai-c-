@@ -1,7 +1,7 @@
-
-using EscoladeRock.Interfaces;
-
-    public class IPercussao
+﻿namespace EscolaDeRock.Interfaces
+{
+    public interface IPercussao
     {
         bool ManterRitmo();
     }
+}

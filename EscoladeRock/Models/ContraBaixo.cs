@@ -1,18 +1,19 @@
+﻿using System;
+using EscolaDeRock.Interfaces;
 
-using System;
-using EscoladeRock.Interfaces;
-namespace EscoladeRock.Models
+namespace EscolaDeRock.Models
 {
-    public class ContraBaixo: InstrumentoMusical, IPercussao, IHarmonia
+    class ContraBaixo:InstrumentoMusical,IPercussao,IHarmonia
     {
-         public bool ManterRitmo()
+        public bool ManterRitmo()
         {
-            System.Console.WriteLine("Mantendo ritmo do ContraBaixo.");
+            Console.WriteLine("Mantendo ritmo do Contrabaixo.");
             return true;
         }
+
         public bool TocarAcordes()
         {
-            System.Console.WriteLine("Tocando acordes do ContraBaixo");
+            Console.WriteLine("Tocando acordes de Contrabaixo.");
             return true;
         }
     }

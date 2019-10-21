@@ -1,17 +1,19 @@
-using System;
-using EscoladeRock.Interfaces;
-namespace EscoladeRock.Models
+﻿using System;
+using EscolaDeRock.Interfaces;
+
+namespace EscolaDeRock.Models
 {
     public class Guitarra : InstrumentoMusical, IMelodia, IHarmonia
     {
         public bool TocarAcordes()
         {
-            System.Console.WriteLine("Tocando acordes de Guitarra.");
+            Console.WriteLine("Tocando acordes de Guitarra.");
             return true;
         }
+
         public bool TocarSolo()
         {
-            System.Console.WriteLine("Tocando solo de Guitarra.");
+            Console.WriteLine("Tocando solo de Guitarra.");
             return true;
         }
     }

@@ -1,8 +1,7 @@
-
-namespace EscoladeRock.Interfaces
+﻿namespace EscolaDeRock.Interfaces
 {
-    public class IMelodia
+    public interface IMelodia
     {
-      bool TocarSolo();
+        bool TocarSolo();
     }
 }

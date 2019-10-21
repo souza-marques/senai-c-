@@ -1,0 +1,4 @@
+C:\Users\52450072829\Documents\exercícios2\ByteBank_Polimorfismo\obj\Debug\netcoreapp2.2\ByteBank_Polimorfismo.csprojAssemblyReference.cache
+C:\Users\52450072829\Documents\exercícios2\ByteBank_Polimorfismo\obj\Debug\netcoreapp2.2\ByteBank_Polimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\52450072829\Documents\exercícios2\ByteBank_Polimorfismo\obj\Debug\netcoreapp2.2\ByteBank_Polimorfismo.AssemblyInfoInputs.cache
+C:\Users\52450072829\Documents\exercícios2\ByteBank_Polimorfismo\obj\Debug\netcoreapp2.2\ByteBank_Polimorfismo.AssemblyInfo.cs

@@ -1,9 +1,7 @@
-
-namespace EscoladeRock.Models
+﻿namespace EscolaDeRock.Interfaces
 {
-    public class IHarmonia
+    public interface IHarmonia
     {
-        public bool TocarAcordes();
-
+        bool TocarAcordes();
     }
 }
