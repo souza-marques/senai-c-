@@ -1,15 +1,12 @@
-using System;
 using Reciclagem.Interfaces;
+
 namespace Reciclagem.Models
 {
-    public class PoteManteiga : IPlastico
+    public class PoteManteiga : Lixo, IPlastico
     {
-         public bool LixoVermelho()
+        public string ReciclarFeitoPlastico()
         {
-          Console.BackgroundColor = ConsoleColor.Red;
-          Console.ForegroundColor = ConsoleColor.Black;
-          System.Console.WriteLine("Esse lixo corresponde a lixeria VERMELHA pois é um plástico");
-         return true;
+            return this.GetType().Name;
         }
     }
 }

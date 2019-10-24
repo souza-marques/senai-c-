@@ -1,16 +1,12 @@
-using System;
 using Reciclagem.Interfaces;
+
 namespace Reciclagem.Models
 {
-    public class Latinha : IMetal
+    public class Latinha : Lixo, IMetal
     {
-        public bool LixoAmarelo()
+        public string ReciclarFeitoMetal()
         {
-          Console.BackgroundColor = ConsoleColor.Yellow;
-          Console.ForegroundColor = ConsoleColor.Black;
-          System.Console.WriteLine("Esse lixo corresponde a lixeria AMARELA pois é um metal");
-          return true;
+            return this.GetType().Name;/// GetType(). Name  retorna ao nome da classe
         }
-        
     }
 }

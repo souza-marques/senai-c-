@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\52450072829\\Documents\\exercícios2\\Reciclagem\\Reciclagem.csproj": {}
+    "C:\\Users\\52450072829\\Documents\\2s2019-t1\\Exercicios\\Reciclagem\\Reciclagem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\52450072829\\Documents\\exercícios2\\Reciclagem\\Reciclagem.csproj": {
+    "C:\\Users\\52450072829\\Documents\\2s2019-t1\\Exercicios\\Reciclagem\\Reciclagem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\52450072829\\Documents\\exercícios2\\Reciclagem\\Reciclagem.csproj",
+        "projectUniqueName": "C:\\Users\\52450072829\\Documents\\2s2019-t1\\Exercicios\\Reciclagem\\Reciclagem.csproj",
         "projectName": "Reciclagem",
-        "projectPath": "C:\\Users\\52450072829\\Documents\\exercícios2\\Reciclagem\\Reciclagem.csproj",
+        "projectPath": "C:\\Users\\52450072829\\Documents\\2s2019-t1\\Exercicios\\Reciclagem\\Reciclagem.csproj",
         "packagesPath": "C:\\Users\\52450072829\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\52450072829\\Documents\\exercícios2\\Reciclagem\\obj\\",
+        "outputPath": "C:\\Users\\52450072829\\Documents\\2s2019-t1\\Exercicios\\Reciclagem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -39,12 +39,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },

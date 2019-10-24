@@ -1,15 +1,12 @@
-using System;
 using Reciclagem.Interfaces;
+
 namespace Reciclagem.Models
 {
-    public class Papelao : IPapel
+    public class Papelao : Lixo, IPapel
     {
-        public bool LixoAzul()
+        public string ReciclarFeitoPapel()
         {
-          Console.BackgroundColor = ConsoleColor.Blue;
-          Console.ForegroundColor = ConsoleColor.Black;
-          System.Console.WriteLine("Esse lixo corresponde a lixeria  de cor Azul pois é um papelão");
-         return true;
-        }
+            return this.GetType().Name;
         }
     }
+}
