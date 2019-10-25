@@ -1,0 +1,4 @@
+C:\Users\52450072829\Documents\exercícios2\Desafios\Desafio8\obj\Debug\netcoreapp2.2\Desafio8.csprojAssemblyReference.cache
+C:\Users\52450072829\Documents\exercícios2\Desafios\Desafio8\obj\Debug\netcoreapp2.2\Desafio8.csproj.CoreCompileInputs.cache
+C:\Users\52450072829\Documents\exercícios2\Desafios\Desafio8\obj\Debug\netcoreapp2.2\Desafio8.AssemblyInfoInputs.cache
+C:\Users\52450072829\Documents\exercícios2\Desafios\Desafio8\obj\Debug\netcoreapp2.2\Desafio8.AssemblyInfo.cs
