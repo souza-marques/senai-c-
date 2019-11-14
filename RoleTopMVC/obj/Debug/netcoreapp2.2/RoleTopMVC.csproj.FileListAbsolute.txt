@@ -28,3 +28,4 @@ C:\Users\52450072829\Documents\exercícios2\RoleTopMVC\obj\Debug\netcoreapp2.2\R
 C:\Users\52450072829\Documents\exercícios2\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.dll
 C:\Users\52450072829\Documents\exercícios2\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.pdb
 C:\Users\52450072829\Documents\exercícios2\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.csproj.CopyComplete
+C:\Users\52450072829\Documents\exercícios2\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Galeria\Fotos.g.cshtml.cs
