@@ -27,16 +27,17 @@ namespace McBonaldsMVC.Repositories {
                     c.Senha = ExtrairValorDoCampo ("senha", linha);
                     c.Endereco = ExtrairValorDoCampo ("endereco", linha);
                     c.Telefone = ExtrairValorDoCampo ("telefone", linha);
-                    c.DataNascimento = DateTime.Parse (ExtrairValorDoCampo ("endereco", linha));
+                    c.DataNascimento = DateTime.Parse (ExtrairValorDoCampo ("data_nascimento", linha));
 
                     return c;
                 }
             }
+            return null;
         }
         private string PrepararRegistroCSV (Cliente cliente) {
             return $"nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};endereco={cliente.Endereco};telefone={cliente.Telefone};data_nascimento={cliente.DataNascimento}";
         }
-        public string ExtrairValorDoCampo (string nome, string linha) {
+        public string ExtrairValorDoCampo (string nomeCampo, string linha) {
             var chave = nomeCampo;
             var indiceChave = linha.IndexOf (chave);
 

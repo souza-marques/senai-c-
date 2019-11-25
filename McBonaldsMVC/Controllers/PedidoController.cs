@@ -7,17 +7,34 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace McBonaldsMVC.Controllers
 {
-    public class PedidoController : Controller
+    public class PedidoController : AbstractController
     {
         PedidoRepository pedidoRepository = new PedidoRepository();
         HamburguerRepository hamburguerRepository = new HamburguerRepository();
         ShakeRepository shakeRepository = new ShakeRepository();
+
+        ClienteRepository clienteRepository = new ClienteRepository();
        public IActionResult Index()
        {
            var hamburguer = hamburguerRepository.ObterTodos();
            PedidoViewModel pedido = new PedidoViewModel();
            pedido.Hamburgueres = hamburguer; 
            pedido.Shakes = shakeRepository.ObterTodos();
+
+           var usuarioLogado = ObterUsuarioSession();
+           var nomeUsuarioLogado = ObterUsuarioNomeSession();
+           if(!string.IsNullOrEmpty(nomeUsuarioLogado)){
+               pedido.NomeUsuario = nomeUsuarioLogado;
+           }
+
+            var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
+            if(clienteLogado != null)
+            {
+                pedido.Cliente = clienteLogado;
+            }
+            pedido.NomeView = "Pedido";
+            pedido.UsuarioEmail = ObterUsuarioSession();
+            pedido.UsuarioNome = ObterUsuarioNomeSession();
            return View(pedido);
        }
 
@@ -54,9 +71,24 @@ namespace McBonaldsMVC.Controllers
 
            pedido.PrecoTotal = hamburguer.Preco + shake.Preco;
 
-           pedidoRepository.Inserir(pedido);
+            if(pedidoRepository.Inserir(pedido)) {
+           return View("Sucesso", new RespostaViewModel()
+            {
 
-            return View("Sucesso");
+                Mensagem = "Aguarde a aprovação dos nossos administradores",
+                NomeView = "Sucesso",
+                UsuarioEmail = ObterUsuarioSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
+            } else {
+                return View ("Erro", new RespostaViewModel()
+                {
+                    Mensagem = "Houve um erro ao procurar seu pedido. Tente novamente!",
+                    NomeView = "Erro",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
        }
     }
 }
