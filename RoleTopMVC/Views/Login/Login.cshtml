@@ -1,0 +1,75 @@
+    <main>
+                            <form method="POST" action='@Url.Action("Login","Login")'>
+                            <h2>Login de Usuário</h2>
+
+                            <form method="GET" action="principal.html">
+                                <div>
+                                    <label for="email">E-mail:</label>
+                                    <br />
+                                    <input id="email" type="email" />
+                                </div>
+                                <div>
+                                    <label for="senha">Senha:</label>
+                                    <br />
+                                    <input id="senha" type="password" /><br>
+                                    <input type="submit" value="Entrar" onclick="alert('Parabéns,você está logado!')"/>
+                                </div>
+                                <br>
+                                <br>
+                            </form>
+                            <form method="GET" action="dashboard.html">
+                                <div>
+                                    <h2>Login de administrador</h2>
+                                    <label for="Nome do adiministrador"> Nome administrador:</label>
+                                    <br>
+                                    <input id="Nome do administrador" type="Nome" />
+                                </div>
+                                <div>
+                                    <label for="Código de verificação">Código de verificação do administrador:</label>
+                                    <br>
+                                    <input id="Código de verificação" type="number">
+                                </div>
+                                
+                                <div>
+                                    <label for="password">Senha:</label>
+                                    <br>
+                                    <input id="senha" type="password" /><br>
+                                    <input type="submit" value="Entrar" />
+                                </div>
+                                <br>
+                                <br>
+                            </form>
+                            <form method="GET" action="principal.html">
+                                
+                                <h2>Cadastro</h2>
+                                <div>
+                                    <label for="Nome">Nome Completo:</label>
+                                    <br>
+                                    <input id="nome ca" type="text" />
+                                </div>
+                                <div>
+                                    <label for="CPF ou CNPJ">CPF ou CNPJ</label>
+                                    <br>
+                                    <input id="CPF/CNPJ ca" type="number" />
+                                </div>
+                                <div>
+                                    <label for="E-mail">E-mail:</label>
+                                    <br>
+                                    <input id="E-mail ca" type="email" />
+                                </div>
+                                <div>
+                                    <label for="Senha">Senha:</label>
+                                    <br>
+                                    <input id="senha ca" type="password" />
+                                </div>
+                                <div>
+                                    <label for="Confirmação de senha">Confirmação de Senha:</label>
+                                    <br>
+                                    <input id="Confirmação de senha ca" type="text" /><br>
+                                    <input type="submit" value="Cadastrar" onclick="alert('Parabéns,você está cadastrado')" />
+                                </div>
+                                <br>
+                                <br>
+                            </form>
+                            </form>
+                        </main>

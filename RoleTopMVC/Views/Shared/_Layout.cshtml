@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model RoleTopMVC.ViewModels.BaseViewModel
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,15 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rolê Top-espaço para eventos </title>
-    <link rel="icon" href="img/logo roletop.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/principal.css" type="text/css">
+    <link rel="icon" href="~/img/logo roletop.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/style.css" type="text/css">
+    <link rel="stylesheet" href="~/css/principal.css" type="text/css">
+
+    @if("Galeria".Equals(@Model.NomeView))
+    {
+          <link rel="stylesheet" href="~/css/galeria.css" type="text/css">
+    }
+    @if("Orcamento".Equals(@Model.NomeView))
+    {
+         <link rel="stylesheet" href="~/css/orçamento.css" type="text/css">
+    }@if("Login".Equals(@Model.NomeView))
+    {
+        <link rel="stylesheet" href="~/css/login.css" type="text/css">
+    }
+
     <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="img/logo roletop.png" class="imgg" alt="logotipo" title="Rolê-top " />
+        <img src="~/img/logo roletop.png" class="imgg" alt="logotipo" title="Rolê-top " />
         <nav>
             <div class="section-container">
                 
@@ -23,21 +38,21 @@
                         <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
                             <i class="fa fa-bars"></i>
                             
-                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="principal.html"
+                            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index"
                                 class="active">Principal</a></li>
                                 <li class="bt-common-menu"><a onclick="toggleMobileMenu()"
-                                    href="principal.html#historia">História</a></li>
-                                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
-                                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html">Cadastro/Login</a>
+                                    href='@Url.Action("Index","Home")#historia'>História</a></li>
+                                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller = "Galeria" asp-action="Fotos">Galeria</a></li>
+                                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"asp-controller = "Login" asp-action="Login">Cadastro/Login</a>
                                     </li>
-                                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="principal.html#servicos">Serviços</a></li>
-                                    <li><a id="bt-peca_ja" href="orçamento.html"><strong>Faça seu Evento</strong></a></li>
+                                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index","Home")#servicos'>Serviços</a></li>
+                                    <li><a id="bt-peca_ja" asp-controller="Orcamento" asp-action="CadastroEventos">Faça seu Evento</strong></a></li>
                                 </ul>
                             </div>
                         </nav>
                         
                     </header>
-            @RenderBody()
+ @RenderBody()
          <footer>
                             <div class="section-local">
                                 <address>
