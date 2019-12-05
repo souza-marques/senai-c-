@@ -1,4 +1,5 @@
 using System;
+using McBonaldsMVC.Enums;
 using McBonaldsMVC.Models;
 using McBonaldsMVC.Repositories;
 using McBonaldsMVC.ViewModels;
@@ -24,7 +25,7 @@ namespace McBonaldsMVC.Controllers
            var usuarioLogado = ObterUsuarioSession();
            var nomeUsuarioLogado = ObterUsuarioNomeSession();
            if(!string.IsNullOrEmpty(nomeUsuarioLogado)){
-               pedido.NomeUsuario = nomeUsuarioLogado;
+               pedido.NomeUsuario = nomeUsuarioLogado;//codigo para substituir o nome jovem por cliente 
            }
 
             var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
@@ -42,6 +43,7 @@ namespace McBonaldsMVC.Controllers
 
 
        public IActionResult Registrar(IFormCollection form)
+
        {
            ViewData["Action"] = "Pedido";
 
@@ -90,5 +92,51 @@ namespace McBonaldsMVC.Controllers
                 });
             }
        }
+
+     public IActionResult Aprovar(ulong id)
+     {
+         Pedido pedido = pedidoRepository.ObterPor(id);//troca os status de pedido
+         pedido.Status = (uint) StatusPedido.APROVADO;// posteriormente , devemos ir ao repository para atualizar 
+
+         if (pedidoRepository.Atualizar(id,pedido))
+     {
+         return RedirectToAction("Dashboard","Administrador");
+         
+     }
+     else
+     {
+          return View ("Erro", new RespostaViewModel()
+                {
+                    Mensagem = "Houve um erro ao aprovar seu pedido.",
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+      }
+
+      }
+
+      public IActionResult Reprovar(ulong id)
+     {
+         Pedido pedido = pedidoRepository.ObterPor(id);//troca os status de pedido
+         pedido.Status = (uint) StatusPedido.REPROVADO;// posteriormente , devemos ir ao repository para atualizar 
+
+         if (pedidoRepository.Atualizar(id,pedido))
+     {
+         return RedirectToAction("Dashboard","Administrador");
+         
+     }
+     else
+     {
+          return View ("Erro", new RespostaViewModel()
+                {
+                    Mensagem = "Houve um erro ao reprovar seu pedido.",
+                    NomeView = "Dashboard",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+      }
+
+      }
     }
 }
